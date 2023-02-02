@@ -11,7 +11,7 @@ const {
 const PORT = process.env.PORT || 3001;
 const client_id = "xyyYy6J67SQ9BLhCxSt30YsBURb6r85N";
 const client_secret =
-  "4-AD_G6QPN-y4l_nVqGtgYVdeem42knCa1iQoptIR2IjJSPDpxZsCFOuUazrqHol";
+  "--redacted--";
 const audience = "https://nrj-auth-tenant.us.auth0.com/api/v2/";
 const token_audience = "https://kreative-order/";
 const tokenApiUrl = "https://nrj-auth-tenant.us.auth0.com/oauth/token";
@@ -198,7 +198,7 @@ app.listen(PORT, () => {
 
 // Below is the secret...env fix later
 const stripe_secret =
-  "sk_test_51MONa1IQw9voqyfZveK4i8MmyrId0ckq7MYGlBxO4VjKZDitFvwWxn9rg9Ap3avDKZiCyGAbNNLpBz6CrpvU5ajM00PJvVxHuw";
+  "--redacted--";
 
 const stripe = require("stripe")(stripe_secret);
 

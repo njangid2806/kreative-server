@@ -1,0 +1,4 @@
+{
+    "USER_URL": "api/v2/users-by-email?email=",
+    "USER_UPDATE_URL": "api/v2/users/"
+}
